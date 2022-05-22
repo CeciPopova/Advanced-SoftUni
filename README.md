@@ -1,5 +1,6 @@
 # Advanced-SoftUni
 Solutions 
+This folder contains various task solutions for the C# Advanced Course at Software University.
 
 C# Advanced
 
