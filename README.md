@@ -8,10 +8,10 @@ C# Advanced course examines the .NET platform as well as the C# programming lang
 
 Acquired Skills :
 
-    Working with multidimensional and associative data structures
-    Application of basic algorithms
-    Working with data streams, files and directories
-    Creating custom linear data structures
-    Application of functional programming
-    Creating template classes
+   * Working with multidimensional and associative data structures
+   * Application of basic algorithms
+   * Working with data streams, files and directories
+   * Creating custom linear data structures
+   * Application of functional programming
+   * Creating template classes
 
