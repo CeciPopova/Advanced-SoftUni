@@ -7,11 +7,18 @@ namespace P01._Sort_Even_Numbers
     {
         static void Main(string[] args)
         {
-           int[] numbers = Console.ReadLine()
+            Console.WriteLine(String.Join(", ", 
+                Console.ReadLine()
                 .Split(", ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse).ToArray();   
-            int[] sortedEvenNumbers= numbers.OrderBy(x=>x).Where(x=>x%2==0).ToArray();    
-            Console.WriteLine(String.Join(", ",sortedEvenNumbers));   
+                .Select(int.Parse)
+                .OrderBy(x=>x)
+                .Where(x=>x%2==0)));
+
+            //int[] numbers = Console.ReadLine()
+            //     .Split(", ", StringSplitOptions.RemoveEmptyEntries)
+            //     .Select(int.Parse).ToArray();
+            //int[] sortedEvenNumbers = numbers.OrderBy(x => x).Where(x => x % 2 == 0).ToArray();
+            //Console.WriteLine(String.Join(", ", sortedEvenNumbers));
         }
     }
 }
